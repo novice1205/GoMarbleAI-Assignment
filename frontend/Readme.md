@@ -12,7 +12,7 @@ frontend/
 ├── src/
 │   ├── App.js            # Main app component
 │   ├── index.js          # Entry point for the React app
-│   └── styles.css        # Styles for the application
+│   └── index.css        # Styles for the application
 ├── package.json          # Project dependencies and scripts
 └── README.md             # Documentation for the project
 ```
