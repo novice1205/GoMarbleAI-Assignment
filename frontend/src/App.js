@@ -10,7 +10,7 @@ function App() {
   const fetchReviews = async () => {
     setError("");
     try {
-      const response = await axios.get(`http://127.0.0.1:8000/`);
+      const response = await axios.get(`http://127.0.0.1:8000/api/reviews?page={url}`);
       setReviews(response.data.reviews);
     } catch (err) {
       setError("Failed to fetch reviews. Please check the URL.");
